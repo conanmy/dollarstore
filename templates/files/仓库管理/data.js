@@ -1,0 +1,1334 @@
+﻿$axure.loadCurrentPage({
+  "url":"仓库管理.html",
+  "generationDate":new Date(1468808648083.65),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"sitemapLinksPageName",
+"NewVariable",
+"NewVariable1"],
+  "page":{
+    "packageId":"74626d51ec1849db8326fa8652609d83",
+    "type":"Axure:Page",
+    "name":"仓库管理",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"用例 1",
+            "isNewIfGroup":false,
+            "actions":[{
+                "action":"setFunction",
+                "description":"设置 被选中的 BaseWarehouse/BaseHome/Warehouse_Button = &quot;true&quot;",
+                "expr":{
+                  "exprType":"block",
+                  "subExprs":[{
+                      "exprType":"fcall",
+                      "functionName":"SetCheckState",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["255dcf6330f84ab7ae10d157a0ca3c22",
+"d71e50af59374356a29d53a3644aa4ef",
+"142444f8988140138155a351ad60d240"]},
+{
+                          "exprType":"stringLiteral",
+                          "value":"true",
+                          "stos":[]}]}]}}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"255dcf6330f84ab7ae10d157a0ca3c22",
+          "label":"",
+          "type":"referenceDiagramObject",
+          "styleType":"referenceDiagramObject",
+          "visible":true,
+          "style":{
+},
+          "adaptiveStyles":{
+},
+          "masterId":"b83bef6d737a4702a709d4043fb0ab40"}]}},
+  "masters":{
+    "b83bef6d737a4702a709d4043fb0ab40":{
+      "packageId":"b83bef6d737a4702a709d4043fb0ab40",
+      "type":"Axure:Master",
+      "name":"BaseWarehouse",
+      "notes":{
+},
+      "style":{
+        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+        "pageAlignment":"near",
+        "fill":{
+          "fillType":"solid",
+          "color":0xFFFFFFFF},
+        "image":null,
+        "imageHorizontalAlignment":"near",
+        "imageVerticalAlignment":"near",
+        "imageRepeat":"auto",
+        "favicon":null,
+        "sketchFactor":"0",
+        "colorStyle":"appliedColor",
+        "fontName":"应用字体",
+        "borderWidth":"0"},
+      "adaptiveStyles":{
+},
+      "interactionMap":{
+},
+      "diagram":{
+        "objects":[{
+            "id":"d71e50af59374356a29d53a3644aa4ef",
+            "label":"",
+            "type":"referenceDiagramObject",
+            "styleType":"referenceDiagramObject",
+            "visible":true,
+            "style":{
+              "size":{
+                "width":1400,
+                "height":730}},
+            "adaptiveStyles":{
+},
+            "masterId":"c8f61b74ddd2495991c77caa6f35fcd6"},
+{
+            "id":"64b76512dd4646169929197617f36b06",
+            "label":"",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "stateStyles":{
+                "selected":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFF009DD9}}},
+              "location":{
+                "x":470,
+                "y":40},
+              "size":{
+                "width":130,
+                "height":50},
+              "cornerRadiusTopLeft":"5"},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"5dc1f12a8c9946059ced372f7428dba8",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "stateStyles":{
+                    "selected":{
+                      "fontName":"'Applied Font Regular', 'Applied Font'",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFF009DD9}}},
+                  "location":{
+                    "x":470,
+                    "y":40},
+                  "size":{
+                    "width":130,
+                    "height":50},
+                  "cornerRadiusTopLeft":"5"},
+                "adaptiveStyles":{
+}}],
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"Case 1<br> (If True)",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"在 当前窗口 打开 仓库入库",
+                        "target":{
+                          "targetType":"page",
+                          "url":"仓库入库.html",
+                          "includeVariables":true},
+                        "linkType":"current"},
+{
+                        "action":"setFunction",
+                        "description":"设置 被选中的 (形状) = &quot;true&quot;",
+                        "expr":{
+                          "exprType":"block",
+                          "subExprs":[{
+                              "exprType":"fcall",
+                              "functionName":"SetCheckState",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["64b76512dd4646169929197617f36b06"]},
+{
+                                  "exprType":"stringLiteral",
+                                  "value":"true",
+                                  "stos":[]}]}]}}]},
+{
+                    "description":"Case 2<br> (Else If &quot;&quot; 等于 &quot;仓库入库&quot;)",
+                    "isNewIfGroup":false,
+                    "condition":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"",
+                        "stos":[]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"仓库入库",
+                        "stos":[]}},
+                    "actions":[{
+                        "action":"setFunction",
+                        "description":"设置 被选中的 (形状) = &quot;true&quot;",
+                        "expr":{
+                          "exprType":"block",
+                          "subExprs":[{
+                              "exprType":"fcall",
+                              "functionName":"SetCheckState",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["03c88a0b3707416abba9b268b0c7ae4f"]},
+{
+                                  "exprType":"stringLiteral",
+                                  "value":"true",
+                                  "stos":[]}]}]}}]}]}},
+            "tabbable":true,
+            "images":{
+              "normal~":"images/仓库管理/u20.png",
+              "selected~":"images/仓库管理/u20_selected.png"}},
+{
+            "id":"03c88a0b3707416abba9b268b0c7ae4f",
+            "label":"",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "stateStyles":{
+                "selected":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFF009DD9}}},
+              "location":{
+                "x":650,
+                "y":40},
+              "size":{
+                "width":130,
+                "height":50},
+              "cornerRadiusTopLeft":"5"},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"271a535919fb40919ac81aed44701c8d",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "stateStyles":{
+                    "selected":{
+                      "fontName":"'Applied Font Regular', 'Applied Font'",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFF009DD9}}},
+                  "location":{
+                    "x":650,
+                    "y":40},
+                  "size":{
+                    "width":130,
+                    "height":50},
+                  "cornerRadiusTopLeft":"5"},
+                "adaptiveStyles":{
+}}],
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"Case 1<br> (If True)",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"在 当前窗口 打开 货品查询",
+                        "target":{
+                          "targetType":"page",
+                          "url":"货品查询.html",
+                          "includeVariables":true},
+                        "linkType":"current"},
+{
+                        "action":"setFunction",
+                        "description":"设置 被选中的 (形状) = &quot;true&quot;",
+                        "expr":{
+                          "exprType":"block",
+                          "subExprs":[{
+                              "exprType":"fcall",
+                              "functionName":"SetCheckState",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["03c88a0b3707416abba9b268b0c7ae4f"]},
+{
+                                  "exprType":"stringLiteral",
+                                  "value":"true",
+                                  "stos":[]}]}]}}]},
+{
+                    "description":"Case 2<br> (Else If &quot;&quot; 等于 &quot;货品查询&quot;)",
+                    "isNewIfGroup":false,
+                    "condition":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"",
+                        "stos":[]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"货品查询",
+                        "stos":[]}},
+                    "actions":[{
+                        "action":"setFunction",
+                        "description":"设置 被选中的 (形状) = &quot;true&quot;",
+                        "expr":{
+                          "exprType":"block",
+                          "subExprs":[{
+                              "exprType":"fcall",
+                              "functionName":"SetCheckState",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["e8a5f5d5f0b04d9d84bd08bebc923987"]},
+{
+                                  "exprType":"stringLiteral",
+                                  "value":"true",
+                                  "stos":[]}]}]}}]}]}},
+            "tabbable":true,
+            "images":{
+              "normal~":"images/仓库管理/u20.png",
+              "selected~":"images/仓库管理/u20_selected.png"}},
+{
+            "id":"e8a5f5d5f0b04d9d84bd08bebc923987",
+            "label":"",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "stateStyles":{
+                "selected":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFF009DD9}}},
+              "location":{
+                "x":820,
+                "y":40},
+              "size":{
+                "width":130,
+                "height":50},
+              "cornerRadiusTopLeft":"5"},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"fbd77e42621b4d0fa5d7ee924d20bb81",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "stateStyles":{
+                    "selected":{
+                      "fontName":"'Applied Font Regular', 'Applied Font'",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFF009DD9}}},
+                  "location":{
+                    "x":820,
+                    "y":40},
+                  "size":{
+                    "width":130,
+                    "height":50},
+                  "cornerRadiusTopLeft":"5"},
+                "adaptiveStyles":{
+}}],
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"Case 1<br> (If True)",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"在 当前窗口 打开 货物管理",
+                        "target":{
+                          "targetType":"page",
+                          "url":"货物管理.html",
+                          "includeVariables":true},
+                        "linkType":"current"},
+{
+                        "action":"setFunction",
+                        "description":"设置 被选中的 (形状) = &quot;true&quot;",
+                        "expr":{
+                          "exprType":"block",
+                          "subExprs":[{
+                              "exprType":"fcall",
+                              "functionName":"SetCheckState",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["e8a5f5d5f0b04d9d84bd08bebc923987"]},
+{
+                                  "exprType":"stringLiteral",
+                                  "value":"true",
+                                  "stos":[]}]}]}}]},
+{
+                    "description":"Case 2<br> (Else If &quot;&quot; 等于 &quot;货物管理&quot;)",
+                    "isNewIfGroup":false,
+                    "condition":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"",
+                        "stos":[]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"货物管理",
+                        "stos":[]}},
+                    "actions":[{
+                        "action":"setFunction",
+                        "description":"设置 被选中的 (形状) = &quot;true&quot;",
+                        "expr":{
+                          "exprType":"block",
+                          "subExprs":[{
+                              "exprType":"fcall",
+                              "functionName":"SetCheckState",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["0ecac73fe1db444c8bd23523a34c8391"]},
+{
+                                  "exprType":"stringLiteral",
+                                  "value":"true",
+                                  "stos":[]}]}]}}]}]}},
+            "tabbable":true,
+            "images":{
+              "normal~":"images/仓库管理/u20.png",
+              "selected~":"images/仓库管理/u20_selected.png"}},
+{
+            "id":"0ecac73fe1db444c8bd23523a34c8391",
+            "label":"",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "stateStyles":{
+                "selected":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFF009DD9}}},
+              "location":{
+                "x":990,
+                "y":40},
+              "size":{
+                "width":130,
+                "height":50},
+              "cornerRadiusTopLeft":"5"},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"814a320e6ac54f07a833975e75ab33a2",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "stateStyles":{
+                    "selected":{
+                      "fontName":"'Applied Font Regular', 'Applied Font'",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFF009DD9}}},
+                  "location":{
+                    "x":990,
+                    "y":40},
+                  "size":{
+                    "width":130,
+                    "height":50},
+                  "cornerRadiusTopLeft":"5"},
+                "adaptiveStyles":{
+}}],
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"Case 1<br> (If True)",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"在 当前窗口 打开 仓库盘点",
+                        "target":{
+                          "targetType":"page",
+                          "url":"仓库盘点.html",
+                          "includeVariables":true},
+                        "linkType":"current"},
+{
+                        "action":"setFunction",
+                        "description":"设置 被选中的 (形状) = &quot;true&quot;",
+                        "expr":{
+                          "exprType":"block",
+                          "subExprs":[{
+                              "exprType":"fcall",
+                              "functionName":"SetCheckState",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["0ecac73fe1db444c8bd23523a34c8391"]},
+{
+                                  "exprType":"stringLiteral",
+                                  "value":"true",
+                                  "stos":[]}]}]}}]},
+{
+                    "description":"Case 2<br> (Else If &quot;&quot; 等于 &quot;仓库盘点&quot;)",
+                    "isNewIfGroup":false,
+                    "condition":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"",
+                        "stos":[]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"仓库盘点",
+                        "stos":[]}},
+                    "actions":[{
+                        "action":"setFunction",
+                        "description":"设置 选中",
+                        "expr":{
+                          "exprType":"block",
+                          "subExprs":[]}},
+{
+                        "action":"setFunction",
+                        "description":"设置 被选中的 (形状) = &quot;true&quot;",
+                        "expr":{
+                          "exprType":"block",
+                          "subExprs":[{
+                              "exprType":"fcall",
+                              "functionName":"SetCheckState",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["4ace461b4e4e4964a9ca9bb1785806e0"]},
+{
+                                  "exprType":"stringLiteral",
+                                  "value":"true",
+                                  "stos":[]}]}]}}]}]}},
+            "tabbable":true,
+            "images":{
+              "normal~":"images/仓库管理/u20.png",
+              "selected~":"images/仓库管理/u20_selected.png"}},
+{
+            "id":"4ace461b4e4e4964a9ca9bb1785806e0",
+            "label":"",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "stateStyles":{
+                "selected":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFF009DD9}}},
+              "location":{
+                "x":310,
+                "y":40},
+              "size":{
+                "width":130,
+                "height":50},
+              "cornerRadiusTopLeft":"5"},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"883dd35c1560434dbe30208e74e6112d",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "stateStyles":{
+                    "selected":{
+                      "fontName":"'Applied Font Regular', 'Applied Font'",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFF009DD9}}},
+                  "location":{
+                    "x":310,
+                    "y":40},
+                  "size":{
+                    "width":130,
+                    "height":50},
+                  "cornerRadiusTopLeft":"5"},
+                "adaptiveStyles":{
+}}],
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"Case 2<br> (If 值于 sitemapLinksPageName 等于 &quot;仓库查询&quot;)",
+                    "isNewIfGroup":false,
+                    "condition":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"sitemapLinksPageName"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"仓库查询",
+                        "stos":[]}},
+                    "actions":[{
+                        "action":"setFunction",
+                        "description":"设置 被选中的 (形状) = &quot;true&quot;",
+                        "expr":{
+                          "exprType":"block",
+                          "subExprs":[{
+                              "exprType":"fcall",
+                              "functionName":"SetCheckState",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["64b76512dd4646169929197617f36b06"]},
+{
+                                  "exprType":"stringLiteral",
+                                  "value":"true",
+                                  "stos":[]}]}]}}]},
+{
+                    "description":"Case 1<br> (If True)",
+                    "isNewIfGroup":true,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"在 当前窗口 打开 仓库查询",
+                        "target":{
+                          "targetType":"page",
+                          "url":"仓库查询.html",
+                          "includeVariables":true},
+                        "linkType":"current"},
+{
+                        "action":"setFunction",
+                        "description":"设置 被选中的 (形状) = &quot;true&quot;",
+                        "expr":{
+                          "exprType":"block",
+                          "subExprs":[{
+                              "exprType":"fcall",
+                              "functionName":"SetCheckState",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["4ace461b4e4e4964a9ca9bb1785806e0"]},
+{
+                                  "exprType":"stringLiteral",
+                                  "value":"true",
+                                  "stos":[]}]}]}}]}]}},
+            "tabbable":true,
+            "images":{
+              "normal~":"images/仓库管理/u20.png",
+              "selected~":"images/仓库管理/u20_selected.png"}}]}},
+    "c8f61b74ddd2495991c77caa6f35fcd6":{
+      "packageId":"c8f61b74ddd2495991c77caa6f35fcd6",
+      "type":"Axure:Master",
+      "name":"BaseHome",
+      "notes":{
+},
+      "style":{
+        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+        "pageAlignment":"near",
+        "fill":{
+          "fillType":"solid",
+          "color":0xFFFFFFFF},
+        "image":null,
+        "imageHorizontalAlignment":"near",
+        "imageVerticalAlignment":"near",
+        "imageRepeat":"auto",
+        "favicon":null,
+        "sketchFactor":"0",
+        "colorStyle":"appliedColor",
+        "fontName":"应用字体",
+        "borderWidth":"0"},
+      "adaptiveStyles":{
+},
+      "interactionMap":{
+},
+      "diagram":{
+        "objects":[{
+            "id":"9e767f35fab94669b453622ff1531b4f",
+            "label":"Employee_Button",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "stateStyles":{
+                "selected":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFF009DD9}}},
+              "location":{
+                "x":80,
+                "y":140},
+              "size":{
+                "width":120,
+                "height":40},
+              "cornerRadiusTopLeft":"5"},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"744c94948aba4decbfa230f83cb35e31",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "stateStyles":{
+                    "selected":{
+                      "fontName":"'Applied Font Regular', 'Applied Font'",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFF009DD9}}},
+                  "location":{
+                    "x":80,
+                    "y":140},
+                  "size":{
+                    "width":120,
+                    "height":40},
+                  "cornerRadiusTopLeft":"5"},
+                "adaptiveStyles":{
+}}],
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"Case 1",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"在 当前窗口 打开 员工管理",
+                        "target":{
+                          "targetType":"page",
+                          "url":"员工管理.html",
+                          "includeVariables":true},
+                        "linkType":"current"}]}]}},
+            "tabbable":true,
+            "images":{
+              "normal~":"images/登录成功/employee_button_u1.png",
+              "selected~":"images/登录成功/employee_button_u1_selected.png"}},
+{
+            "id":"fb2d59fbc31345f7bfe32a4196424a35",
+            "label":"Order_Button",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "stateStyles":{
+                "selected":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFF009DD9}}},
+              "location":{
+                "x":80,
+                "y":206},
+              "size":{
+                "width":120,
+                "height":40},
+              "cornerRadiusTopLeft":"5"},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"5c84d00f3a294e689d456e7563e14b6a",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "stateStyles":{
+                    "selected":{
+                      "fontName":"'Applied Font Regular', 'Applied Font'",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFF009DD9}}},
+                  "location":{
+                    "x":80,
+                    "y":206},
+                  "size":{
+                    "width":120,
+                    "height":40},
+                  "cornerRadiusTopLeft":"5"},
+                "adaptiveStyles":{
+}}],
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"Case 1",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"在 当前窗口 打开 订单管理",
+                        "target":{
+                          "targetType":"page",
+                          "url":"订单管理.html",
+                          "includeVariables":true},
+                        "linkType":"current"}]}]}},
+            "tabbable":true,
+            "images":{
+              "normal~":"images/登录成功/employee_button_u1.png",
+              "selected~":"images/登录成功/employee_button_u1_selected.png"}},
+{
+            "id":"417531bb428e47cdad0af37d6e84257c",
+            "label":"Finance_Button",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "stateStyles":{
+                "selected":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFF009DD9}}},
+              "location":{
+                "x":80,
+                "y":266},
+              "size":{
+                "width":120,
+                "height":40},
+              "cornerRadiusTopLeft":"5"},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"96bcdd7bd2bc4dbeb12a725450e9b2d9",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "stateStyles":{
+                    "selected":{
+                      "fontName":"'Applied Font Regular', 'Applied Font'",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFF009DD9}}},
+                  "location":{
+                    "x":80,
+                    "y":266},
+                  "size":{
+                    "width":120,
+                    "height":40},
+                  "cornerRadiusTopLeft":"5"},
+                "adaptiveStyles":{
+}}],
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"Case 1",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"在 当前窗口 打开 财务管理",
+                        "target":{
+                          "targetType":"page",
+                          "url":"财务管理.html",
+                          "includeVariables":true},
+                        "linkType":"current"}]}]}},
+            "tabbable":true,
+            "images":{
+              "normal~":"images/登录成功/employee_button_u1.png",
+              "selected~":"images/登录成功/employee_button_u1_selected.png"}},
+{
+            "id":"142444f8988140138155a351ad60d240",
+            "label":"Warehouse_Button",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "stateStyles":{
+                "selected":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFF009DD9}}},
+              "location":{
+                "x":80,
+                "y":331},
+              "size":{
+                "width":120,
+                "height":40},
+              "cornerRadiusTopLeft":"5"},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"5720eac11c894149985a15d56a716b46",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "stateStyles":{
+                    "selected":{
+                      "fontName":"'Applied Font Regular', 'Applied Font'",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFF009DD9}}},
+                  "location":{
+                    "x":80,
+                    "y":331},
+                  "size":{
+                    "width":120,
+                    "height":40},
+                  "cornerRadiusTopLeft":"5"},
+                "adaptiveStyles":{
+}}],
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"Case 1",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"在 当前窗口 打开 仓库管理",
+                        "target":{
+                          "targetType":"page",
+                          "url":"仓库管理.html",
+                          "includeVariables":true},
+                        "linkType":"current"}]}]}},
+            "tabbable":true,
+            "images":{
+              "normal~":"images/登录成功/employee_button_u1.png",
+              "selected~":"images/登录成功/employee_button_u1_selected.png"}},
+{
+            "id":"abe34f13cd1a41a69a95a4bd18518ea6",
+            "label":"Branch_Button",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "stateStyles":{
+                "selected":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFF009DD9}}},
+              "location":{
+                "x":80,
+                "y":391},
+              "size":{
+                "width":120,
+                "height":40},
+              "cornerRadiusTopLeft":"5"},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"5e87102617904a00909fbc2f3d01b0e2",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "stateStyles":{
+                    "selected":{
+                      "fontName":"'Applied Font Regular', 'Applied Font'",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFF009DD9}}},
+                  "location":{
+                    "x":80,
+                    "y":391},
+                  "size":{
+                    "width":120,
+                    "height":40},
+                  "cornerRadiusTopLeft":"5"},
+                "adaptiveStyles":{
+}}],
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"Case 1",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"在 当前窗口 打开 分店管理",
+                        "target":{
+                          "targetType":"page",
+                          "url":"分店管理.html",
+                          "includeVariables":true},
+                        "linkType":"current"}]}]}},
+            "tabbable":true,
+            "images":{
+              "normal~":"images/登录成功/employee_button_u1.png",
+              "selected~":"images/登录成功/employee_button_u1_selected.png"}},
+{
+            "id":"a9563a7ec1034381b6f98eaeeaae9b76",
+            "label":"Sales_Button",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "stateStyles":{
+                "selected":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFF009DD9}}},
+              "location":{
+                "x":80,
+                "y":452},
+              "size":{
+                "width":120,
+                "height":40},
+              "cornerRadiusTopLeft":"5"},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"cd74a442417f4103b22f0259b60da553",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "stateStyles":{
+                    "selected":{
+                      "fontName":"'Applied Font Regular', 'Applied Font'",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFF009DD9}}},
+                  "location":{
+                    "x":80,
+                    "y":452},
+                  "size":{
+                    "width":120,
+                    "height":40},
+                  "cornerRadiusTopLeft":"5"},
+                "adaptiveStyles":{
+}}],
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"Case 1",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"在 当前窗口 打开 销售管理",
+                        "target":{
+                          "targetType":"page",
+                          "url":"销售管理.html",
+                          "includeVariables":true},
+                        "linkType":"current"}]}]}},
+            "tabbable":true,
+            "images":{
+              "normal~":"images/登录成功/employee_button_u1.png",
+              "selected~":"images/登录成功/employee_button_u1_selected.png"}},
+{
+            "id":"d0bb6826422844d3aac7adf5d2203b8f",
+            "label":"Managnment_Button",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "stateStyles":{
+                "selected":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFF009DD9}}},
+              "location":{
+                "x":80,
+                "y":512},
+              "size":{
+                "width":120,
+                "height":40},
+              "cornerRadiusTopLeft":"5"},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"5439080a5b9b4f5e856f1f883aa59ff3",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "stateStyles":{
+                    "selected":{
+                      "fontName":"'Applied Font Regular', 'Applied Font'",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFF009DD9}}},
+                  "location":{
+                    "x":80,
+                    "y":512},
+                  "size":{
+                    "width":120,
+                    "height":40},
+                  "cornerRadiusTopLeft":"5"},
+                "adaptiveStyles":{
+}}],
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"Case 1",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"在 当前窗口 打开 公司管理",
+                        "target":{
+                          "targetType":"page",
+                          "url":"公司管理.html",
+                          "includeVariables":true},
+                        "linkType":"current"}]}]}},
+            "tabbable":true,
+            "images":{
+              "normal~":"images/登录成功/employee_button_u1.png",
+              "selected~":"images/登录成功/employee_button_u1_selected.png"}},
+{
+            "id":"6b2d5845710e41e594f558ff5d7350ca",
+            "label":"",
+            "type":"horizontalLine",
+            "styleType":"horizontalLine",
+            "visible":true,
+            "style":{
+              "location":{
+                "x":270,
+                "y":170},
+              "size":{
+                "width":1130,
+                "height":10}},
+            "adaptiveStyles":{
+},
+            "images":{
+              "start~":"resources/images/transparent.gif",
+              "end~":"resources/images/transparent.gif",
+              "line~":"images/登录成功/u15_line.png"}},
+{
+            "id":"1f58c260cd7d47799cdaff3e4fbcd736",
+            "label":"",
+            "type":"verticalLine",
+            "styleType":"verticalLine",
+            "visible":true,
+            "style":{
+              "location":{
+                "x":250,
+                "y":10},
+              "size":{
+                "width":10,
+                "height":720}},
+            "adaptiveStyles":{
+},
+            "images":{
+              "start~":"resources/images/transparent.gif",
+              "end~":"resources/images/transparent.gif",
+              "line~":"images/登录成功/u16_line.png"}},
+{
+            "id":"66e03636cf334a719a29568e4a2bc515",
+            "label":"",
+            "type":"button",
+            "styleType":"button",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "location":{
+                "x":150,
+                "y":10},
+              "size":{
+                "width":100,
+                "height":25}},
+            "adaptiveStyles":{
+},
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"用例 1",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"在 当前窗口 打开 登录页面",
+                        "target":{
+                          "targetType":"page",
+                          "url":"登录页面.html",
+                          "includeVariables":true},
+                        "linkType":"current"}]}]}},
+            "tabbable":true},
+{
+            "id":"3a3718309ea4491b9789279dcd418245",
+            "label":"",
+            "type":"button",
+            "styleType":"button",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "location":{
+                "x":20,
+                "y":10},
+              "size":{
+                "width":100,
+                "height":25}},
+            "adaptiveStyles":{
+},
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"用例 1",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"在 当前窗口 打开 个人信息设置",
+                        "target":{
+                          "targetType":"page",
+                          "url":"个人信息设置.html",
+                          "includeVariables":true},
+                        "linkType":"current"}]}]}},
+            "tabbable":true}]}}},
+  "objectPaths":{
+    "255dcf6330f84ab7ae10d157a0ca3c22":{
+      "scriptId":"u0",
+      "d71e50af59374356a29d53a3644aa4ef":{
+        "scriptId":"u1",
+        "9e767f35fab94669b453622ff1531b4f":{
+          "scriptId":"u2"},
+        "744c94948aba4decbfa230f83cb35e31":{
+          "scriptId":"u3"},
+        "fb2d59fbc31345f7bfe32a4196424a35":{
+          "scriptId":"u4"},
+        "5c84d00f3a294e689d456e7563e14b6a":{
+          "scriptId":"u5"},
+        "417531bb428e47cdad0af37d6e84257c":{
+          "scriptId":"u6"},
+        "96bcdd7bd2bc4dbeb12a725450e9b2d9":{
+          "scriptId":"u7"},
+        "142444f8988140138155a351ad60d240":{
+          "scriptId":"u8"},
+        "5720eac11c894149985a15d56a716b46":{
+          "scriptId":"u9"},
+        "abe34f13cd1a41a69a95a4bd18518ea6":{
+          "scriptId":"u10"},
+        "5e87102617904a00909fbc2f3d01b0e2":{
+          "scriptId":"u11"},
+        "a9563a7ec1034381b6f98eaeeaae9b76":{
+          "scriptId":"u12"},
+        "cd74a442417f4103b22f0259b60da553":{
+          "scriptId":"u13"},
+        "d0bb6826422844d3aac7adf5d2203b8f":{
+          "scriptId":"u14"},
+        "5439080a5b9b4f5e856f1f883aa59ff3":{
+          "scriptId":"u15"},
+        "6b2d5845710e41e594f558ff5d7350ca":{
+          "scriptId":"u16"},
+        "1f58c260cd7d47799cdaff3e4fbcd736":{
+          "scriptId":"u17"},
+        "66e03636cf334a719a29568e4a2bc515":{
+          "scriptId":"u18"},
+        "3a3718309ea4491b9789279dcd418245":{
+          "scriptId":"u19"}},
+      "64b76512dd4646169929197617f36b06":{
+        "scriptId":"u20"},
+      "5dc1f12a8c9946059ced372f7428dba8":{
+        "scriptId":"u21"},
+      "03c88a0b3707416abba9b268b0c7ae4f":{
+        "scriptId":"u22"},
+      "271a535919fb40919ac81aed44701c8d":{
+        "scriptId":"u23"},
+      "e8a5f5d5f0b04d9d84bd08bebc923987":{
+        "scriptId":"u24"},
+      "fbd77e42621b4d0fa5d7ee924d20bb81":{
+        "scriptId":"u25"},
+      "0ecac73fe1db444c8bd23523a34c8391":{
+        "scriptId":"u26"},
+      "814a320e6ac54f07a833975e75ab33a2":{
+        "scriptId":"u27"},
+      "4ace461b4e4e4964a9ca9bb1785806e0":{
+        "scriptId":"u28"},
+      "883dd35c1560434dbe30208e74e6112d":{
+        "scriptId":"u29"}}}});

@@ -1,0 +1,39 @@
+﻿$axure.loadCurrentPage({
+  "url":"个人信息设置.html",
+  "generationDate":new Date(1468808647939.64),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"sitemapLinksPageName",
+"NewVariable",
+"NewVariable1"],
+  "page":{
+    "packageId":"548b960d14b749299b46a9441629be6c",
+    "type":"Axure:Page",
+    "name":"个人信息设置",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[]}},
+  "masters":{
+},
+  "objectPaths":{
+}});

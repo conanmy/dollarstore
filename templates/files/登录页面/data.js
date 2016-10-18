@@ -1,0 +1,285 @@
+﻿$axure.loadCurrentPage({
+  "url":"登录页面.html",
+  "generationDate":new Date(1468808647735.63),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"sitemapLinksPageName",
+"NewVariable",
+"NewVariable1"],
+  "page":{
+    "packageId":"72d812ef0636425cb3ccb40ac804d204",
+    "type":"Axure:Page",
+    "name":"登录页面",
+    "notes":{
+      "Note":"<p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">这个页面是所有用户登录进来的第一个页面。</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp;</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">我就把所有你需要做的写在这里面吧：</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp;</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp;</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">1. 这里面对于输入的用户名，密码，还有barcode（动态图码）要有一个check，检查失败返回错误就行。</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp;</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp; &nbsp; 这个代码我那个旅游的网站里面有，你直接拷过来就好。</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp;</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">2.&nbsp; 另外动态的那个图像的二维码可能需要你自己设计一下。</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp;</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">3.&nbsp; Session的内容，这个旅游网站里面也有这个功能，你拷过来就好。</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp;</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">4. 员工的表设计</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp;</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">5. 店铺的表设计</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp;</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">6. 产品的表设计</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp;</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">7. 上传产品需要有一个图的内容默认每个产品三幅图吧。</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp;</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp;</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp;</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">前端你就用我写的这个，这个axure是能直接导出html的。有些功能可能axure不好写，你能用就用。</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp;</span></p><p><span style=\"font-family:'Applied Font Regular', 'Applied Font';\">&nbsp;</span></p>"},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"78c4294aa86445ff86d2511cca0feaa9",
+          "label":"",
+          "type":"referenceDiagramObject",
+          "styleType":"referenceDiagramObject",
+          "visible":true,
+          "style":{
+},
+          "adaptiveStyles":{
+},
+          "masterId":"a1970956a3ce46ba89d55c1c67e5d7dc"}]}},
+  "masters":{
+    "a1970956a3ce46ba89d55c1c67e5d7dc":{
+      "packageId":"a1970956a3ce46ba89d55c1c67e5d7dc",
+      "type":"Axure:Master",
+      "name":"BaseLogin",
+      "notes":{
+},
+      "style":{
+        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+        "pageAlignment":"near",
+        "fill":{
+          "fillType":"solid",
+          "color":0xFFFFFFFF},
+        "image":null,
+        "imageHorizontalAlignment":"near",
+        "imageVerticalAlignment":"near",
+        "imageRepeat":"auto",
+        "favicon":null,
+        "sketchFactor":"0",
+        "colorStyle":"appliedColor",
+        "fontName":"应用字体",
+        "borderWidth":"0"},
+      "adaptiveStyles":{
+},
+      "interactionMap":{
+},
+      "diagram":{
+        "objects":[{
+            "id":"fecefe142e5c49dab91a1d95f1973faf",
+            "label":"",
+            "type":"buttonShape",
+            "styleType":"paragraph",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "location":{
+                "x":153,
+                "y":124},
+              "size":{
+                "width":137,
+                "height":25}},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"c8daa4c1198f4c749d9f40f0f23b86b8",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "location":{
+                    "x":153,
+                    "y":124},
+                  "size":{
+                    "width":137,
+                    "height":25}},
+                "adaptiveStyles":{
+}}],
+            "images":{
+              "normal~":"resources/images/transparent.gif"}},
+{
+            "id":"24f15efac63f48b4a23e5326a2be2d81",
+            "label":"",
+            "type":"textBox",
+            "styleType":"textBox",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "location":{
+                "x":300,
+                "y":124},
+              "size":{
+                "width":150,
+                "height":25}},
+            "adaptiveStyles":{
+}},
+{
+            "id":"9f2760fc0f4f47339dc73c804f7bc204",
+            "label":"",
+            "type":"buttonShape",
+            "styleType":"paragraph",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "location":{
+                "x":153,
+                "y":210},
+              "size":{
+                "width":137,
+                "height":25}},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"21cfc343bc1a4b9f8d191ed511173d9f",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "location":{
+                    "x":153,
+                    "y":210},
+                  "size":{
+                    "width":137,
+                    "height":25}},
+                "adaptiveStyles":{
+}}],
+            "images":{
+              "normal~":"resources/images/transparent.gif"}},
+{
+            "id":"b34d608def9c4a4a8774d3615ed75d0b",
+            "label":"",
+            "type":"textBox",
+            "styleType":"textBox",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "location":{
+                "x":300,
+                "y":210},
+              "size":{
+                "width":150,
+                "height":25}},
+            "adaptiveStyles":{
+}},
+{
+            "id":"395148ec6e9d4b4f9bb5ad53952e412e",
+            "label":"",
+            "type":"button",
+            "styleType":"button",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "location":{
+                "x":153,
+                "y":365},
+              "size":{
+                "width":100,
+                "height":25}},
+            "adaptiveStyles":{
+}},
+{
+            "id":"ff69c9d0096b4d12af2ba390bdeb822f",
+            "label":"",
+            "type":"imageBox",
+            "styleType":"imageBox",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "location":{
+                "x":300,
+                "y":290},
+              "size":{
+                "width":150,
+                "height":20}},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"e5e4f45f0fcc40d2835d456f2b55f0ad",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "location":{
+                    "x":300,
+                    "y":290},
+                  "size":{
+                    "width":150,
+                    "height":20}},
+                "adaptiveStyles":{
+}}],
+            "images":{
+              "normal~":"images/登录页面/u8.png"}},
+{
+            "id":"0246930c32fe41ac9ee0c5a39973f08c",
+            "label":"",
+            "type":"buttonShape",
+            "styleType":"paragraph",
+            "visible":true,
+            "style":{
+              "fontName":"'Applied Font Regular', 'Applied Font'",
+              "location":{
+                "x":153,
+                "y":290},
+              "size":{
+                "width":137,
+                "height":30}},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"f918b7c404574861994097ed46b45f06",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fontName":"'Applied Font Regular', 'Applied Font'",
+                  "location":{
+                    "x":153,
+                    "y":290},
+                  "size":{
+                    "width":137,
+                    "height":30}},
+                "adaptiveStyles":{
+}}],
+            "images":{
+              "normal~":"resources/images/transparent.gif"}}]}}},
+  "objectPaths":{
+    "78c4294aa86445ff86d2511cca0feaa9":{
+      "scriptId":"u0",
+      "fecefe142e5c49dab91a1d95f1973faf":{
+        "scriptId":"u1"},
+      "c8daa4c1198f4c749d9f40f0f23b86b8":{
+        "scriptId":"u2"},
+      "24f15efac63f48b4a23e5326a2be2d81":{
+        "scriptId":"u3"},
+      "9f2760fc0f4f47339dc73c804f7bc204":{
+        "scriptId":"u4"},
+      "21cfc343bc1a4b9f8d191ed511173d9f":{
+        "scriptId":"u5"},
+      "b34d608def9c4a4a8774d3615ed75d0b":{
+        "scriptId":"u6"},
+      "395148ec6e9d4b4f9bb5ad53952e412e":{
+        "scriptId":"u7"},
+      "ff69c9d0096b4d12af2ba390bdeb822f":{
+        "scriptId":"u8"},
+      "e5e4f45f0fcc40d2835d456f2b55f0ad":{
+        "scriptId":"u9"},
+      "0246930c32fe41ac9ee0c5a39973f08c":{
+        "scriptId":"u10"},
+      "f918b7c404574861994097ed46b45f06":{
+        "scriptId":"u11"}}}});
